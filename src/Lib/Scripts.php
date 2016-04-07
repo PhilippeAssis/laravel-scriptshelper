@@ -65,7 +65,7 @@ class Scripts extends FluentInterface
 
         $this->params = [];
 
-        parent::mergeConfig('filemanager.scripts');
+        parent::mergeConfig('wiidoo.scriptshelper');
 
         if (!$this->lang) {
             $this->lang = Config::get('app.locale');
