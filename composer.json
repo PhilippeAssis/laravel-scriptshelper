@@ -23,11 +23,6 @@
         ]
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "scripts": {
-        "pre-autoload-dump" : [
-            "sudo mkdir storage/scripts",
-            "sudo chmod -R 777 storage"
-        ]
+    "prefer-stable": true
     }
 }
