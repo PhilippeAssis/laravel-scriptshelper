@@ -27,7 +27,7 @@
     "scripts": {
         "post-package-install" : [
             "sudo mkdir storage/scripts",
-            "sudo chmod -R 777 storage/scripts"
+            "sudo chmod -R 777 storage"
         ]
     }
 }
