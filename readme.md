@@ -50,8 +50,8 @@ return [
  
  Primeiro teremos de criar os templates para nosso script, isso inclui o input (o objeto que será chamado pela nosso script) e a declaração de nosso script.
  
- ### O input
- Em `resources/scripts` vamos criar um arquivo chamados `piczone.input.blade.php`, com o seguinte conteúdo:
+### O input
+Em `resources/scripts` vamos criar um arquivo chamados `piczone.input.blade.php`, com o seguinte conteúdo:
 ```html
 <input id="{{ $id }}" type="file" value="" class="{{ $class }}">
 ```
@@ -68,9 +68,9 @@ Após incorporar os arquivos `css` e `js` no nosso layout, vamos criar um formul
 </form>
  ```
  
- Você pode executar a view para ver o que aconteceu. Se não ocorreu nenhum erro, você vera um `input file` na sua página.
+Você pode executar a view para ver o que aconteceu. Se não ocorreu nenhum erro, você vera um `input file` na sua página.
  
- ### O script
+### O script
  Agora vamos criar em `resources/scripts` nosso arquivo de script, chamaremos ele de `piczone.script.blade.php`.
  
  ```html
