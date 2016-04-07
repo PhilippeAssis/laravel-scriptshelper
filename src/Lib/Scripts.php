@@ -70,6 +70,15 @@ class Scripts extends FluentInterface
         if (!$this->lang) {
             $this->lang = Config::get('app.locale');
         }
+
+        if(!$this->templatePath){
+            $this->templatePath = resource_path('scripts');
+        }
+
+        if(!$this->compiled){
+            $this->compiled = storage_path('scripts');
+        }
+
     }
 
     public function input()
