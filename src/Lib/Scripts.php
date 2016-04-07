@@ -82,7 +82,7 @@ class Scripts extends FluentInterface
             $this->cache[$this->type]['inputs'] = [];
         }
 
-        if ($this->pluginConfig[$this->type]) {
+        if (isset($this->pluginConfig[$this->type])) {
             foreach ($this->pluginConfig[$this->type] as $key => $value) {
                 if (!isset($this->params[$key])) {
                     $this->params[$key] = $value;
@@ -107,7 +107,7 @@ class Scripts extends FluentInterface
 
         $this->reset();
 
-        return $this->generateTemplate('input', $this->type, $new);
+        return $this->generateTemplate('input', $new['type'], $new);
 
     }
 
