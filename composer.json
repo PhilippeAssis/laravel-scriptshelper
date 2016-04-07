@@ -1,0 +1,26 @@
+{
+    "name": "wiidoo/scripts-helper",
+    "description": "Script Manager for Laravel",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["scripts", "manager", "helper", "jquery", "javascript"],
+    "authors": [
+        {
+            "name": "Philippe Assis",
+            "email": "assis@philippeassis.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Wiidoo\\ScriptsHelper\\": "src/"
+        },
+        "files":[
+            "src/scriptsHelper.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
