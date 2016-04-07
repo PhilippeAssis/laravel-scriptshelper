@@ -25,7 +25,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-install-cmd" : [
+        "post-package-install" : [
             "sudo mkdir storage/scripts",
             "sudo chmod -R 777 storage"
         ]
