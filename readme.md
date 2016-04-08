@@ -76,7 +76,7 @@ Você pode executar a view para ver o que aconteceu. Se não ocorreu nenhum erro
  ```html
  <script>
     $(function () {
-        $('#{{$id}}').picZone( {{ json_encode($params) }}  )
+        $('#{{ $id }}').picZone({!! json_encode($params) !!});
     })
 </script>
  ```
