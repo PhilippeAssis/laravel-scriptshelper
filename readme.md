@@ -108,7 +108,7 @@ Vamos por isso na nossa view... Veja um exemplo mais completo com a instrução 
 Pronto! Nosso helper gerará uma ID única para esse script.
 
 #### Passando parametros
-Podemos passar paramentros customizados para nosso `piczone.input.blade.php` ou para `piczone.input.blade.php` tranquilamente, segue o exemplo:
+Podemos passar paramentros customizados para nosso `piczone.input.blade.php` ou para `piczone.script.blade.php` tranquilamente, segue o exemplo:
 ```php
 scriptHelper()->type('piczone')->class('picZone')->camera(false)->lang('pt_BR')->widthMax(600)->keepCalm('beba um café')->input()
 ```
