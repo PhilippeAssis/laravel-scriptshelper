@@ -46,7 +46,7 @@ return [
 | scriptHelper() | Retorna a variável global `$SCRIPTSHELPERCLASS`, usada em `Wiidoo\ScriptsHelper\Lib\Scripts` |
 
 ## Tutorial
- Vamos partir de estamos fazendo uma view de upload de imagens e usaremos o [picZone](https://github.com/PhilippeAssis/picZone) para isso.
+ Vamos partir de que estamos fazendo uma view de upload de imagens e usaremos o [picZone](https://github.com/PhilippeAssis/picZone) para isso.
  
  Primeiro teremos de criar os templates para nosso script, isso inclui o input (o objeto que será chamado pela nosso script) e a declaração de nosso script.
  
